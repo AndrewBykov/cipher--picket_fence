@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Штакетник</title>
+    <link type="image/x-icon" rel="shortcut icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box__container">
+            <div class="box">
+                <h1 class="box__title">Шифр "Штакетник"</h1>
+                <p class="box__text">
+                    Шифр Штакетника - это инновационное программное решение, разработанное для обеспечения высокого уровня безопасности информации. Программа предоставляет надежное шифрование данных, используя специальные алгоритмы, обеспечивая конфиденциальность и защиту от несанкционированного доступа. Сочетание уникальных технологий шифрования и интуитивно понятного интерфейса делает Шифр Штакетника идеальным выбором для тех, кто ценит безопасность своей информации.
+                </p>
+
+                <div class="box__inputs-container">
+                    <input type="text" class="box__input" id="input-encrypt" placeholder="Слово или предложение">
+                    <button class="box__btn" id="btn-encrypt">Зашифровать</button>
+                </div>
+                <div class="box__inputs-container">
+                    <input type="text" class="box__input" id="input-decrypt" placeholder="Слово или предложение">
+                    <button class="box__btn" id="btn-decrypt">Расшифровать</button>
+                </div> 
+
+                <fieldset>
+                    <legend>Ответ</legend>
+                    <p class="box__result" id="result">...</p>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
